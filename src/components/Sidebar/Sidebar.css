@@ -1,0 +1,23 @@
+.sidebar-wrapper {
+  width: 250px;
+  transition: transform 0.3s ease;
+  z-index: 1040;
+}
+
+.sidebar-wrapper.closed {
+  transform: translateX(-100%);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.sidebar-wrapper.open {
+  transform: translateX(0);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #f8f9fa;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}

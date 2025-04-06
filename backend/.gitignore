@@ -1,0 +1,13 @@
+# Node stuff
+node_modules/
+.env
+.vite
+.vite-temp
+
+# Python stuff
+__pycache__/
+*.pyc
+
+# OS clutter
+.DS_Store
+Thumbs.db

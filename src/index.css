@@ -1,0 +1,16 @@
+#root {
+  height: 100vh; /* 100% of viewport height */
+  width: 100vw;  /* 100% of viewport width */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: auto;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #f8f9fa;
+}
